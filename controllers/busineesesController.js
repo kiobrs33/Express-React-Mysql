@@ -38,7 +38,12 @@ module.exports = {
 			[name, ruc, adress, url_logo, phone],
 			(err, rows, fields) => {
 				if (!err) {
-					res.json({ Status: 'Se guardo correctamente el dato' });
+					res.status(200).json({
+						data: {
+							message: 'Se guardo exitosamente'
+						}
+					});
+					// res.json({ Status: 'Se guardo correctamente el dato' });
 				} else {
 					console.log('SE GENERO ERROR -> ' + err);
 				}

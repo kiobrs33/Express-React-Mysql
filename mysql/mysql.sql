@@ -121,6 +121,9 @@ INSERT INTO visitors VALUES
 (4,2,"visitante04","apellidos04","visitante04@gmail.com","982138112","M","7373833"),
 (5,1,"visitante05","apellidos05","visitante05@gmail.com","982138112","M","7373833");
 
+INSERT INTO visitors  (first_name,last_name,email,phone,sexo,code) 
+VALUES (5,"visitante0111","apellidos0111","visitante0111@gmail.com","982138112","M","7373833");
+
 INSERT INTO events VALUES
 (1,"baile01","danzas diversas","imagen01","2019-01-01","2019-02-01"),
 (2,"baile02","danzas diversas","imagen01","2019-01-01","2019-02-01"),
